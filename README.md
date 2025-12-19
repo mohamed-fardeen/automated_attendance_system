@@ -20,7 +20,6 @@ automated_attendance_system/
 └── .env.example
 
 
-
 ## Tech stack
 
 - **Mobile:** React Native (Expo)
