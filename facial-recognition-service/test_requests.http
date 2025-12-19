@@ -1,0 +1,17 @@
+### Compare two images (same person)
+POST http://localhost:5001/debug/compare
+Content-Type: application/json
+
+{
+  "image_a": "test_images/trump1.jpg",
+  "image_b": "test_images/trump2.jpg"
+}
+
+### Compare different people
+POST http://localhost:5001/debug/compare
+Content-Type: application/json
+
+{
+  "image_a": "test_images/trump1.jpg",
+  "image_b": "test_images/elon1.jpg"
+}
