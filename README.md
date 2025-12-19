@@ -6,18 +6,18 @@ It includes a React Native student app, Node.js backend, Python facial‑recogni
 ## Project structure
 
 automated_attendance_system/
-├── mobile-app/ # React Native student app
-├── backend/ # Node.js/Express API server
-├── facial-recognition-service/ # Python/Flask + DeepFace service
-├── faculty-dashboard/ # React web dashboard for faculty
-├── docs/ # Setup, API, architecture, troubleshooting
-├── .github/
-│ └── workflows/
-│ └── ci.yml # CI tests (backend, mobile, dashboard)
-├── README.md
-├── SETUP.md
-├── CONTRIBUTING.md
-└── .env.example
+├─── mobile-app/ # React Native student app
+├─── backend/ # Node.js/Express API server
+├─── facial-recognition-service/ # Python/Flask + DeepFace service
+├─── faculty-dashboard/ # React web dashboard for faculty
+├─── docs/ # Setup, API, architecture, troubleshooting
+├─── .github/
+│ └─── workflows/
+│ └─── ci.yml # CI tests (backend, mobile, dashboard)
+├─── README.md
+├─── SETUP.md
+├─── CONTRIBUTING.md
+└─── .env.example
 
 
 ## Tech stack
